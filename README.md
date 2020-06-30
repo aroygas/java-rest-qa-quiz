@@ -58,7 +58,7 @@ allure serve ./build/allure-results
 ---
 
 # Test scenarios that will fail because of bugs:
-
+```
   1) Limit of 10 triangles can be exceeded
   Scenario: Create more then 10 triangles
     Given I delete all triangles
@@ -97,3 +97,4 @@ allure serve ./build/allure-results
     """
     Then I should see a 500 status code in response
     And I should see "Internal Server Error" in response    
+```
